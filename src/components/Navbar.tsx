@@ -1,15 +1,10 @@
-import { GoogleLogin,useGoogleLogin } from "@react-oauth/google";
+import {useGoogleLogin } from "@react-oauth/google";
 
 
 
 
 export const Navbar = () => {
-  const handleSucess = (credentialResponse:any)=>{
-   console.log('login Successfully',credentialResponse)
-  }
-  const handleError =()=>{
-    console.log('login Error')
-  }
+
   const login = useGoogleLogin({
     onSuccess: tokenResponse => console.log(tokenResponse),
     onError:()=>console.log('Login Failed')

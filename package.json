@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://easy-signal.com",
+  "homepage": "https://shekhar0909.github.io/EasySignal.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

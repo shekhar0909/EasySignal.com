@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="refresh" content="0; URL='/'" />
-</head>
-<body>
-  <script>
-    // Redirect to index.html while preserving the URL
-    window.location.href = window.location.pathname;
-  </script>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      var redirect = document.createElement("script");
+      redirect.src = window.location.pathname + window.location.search + window.location.hash;
+      document.head.appendChild(redirect);
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <h1>Sorry, we can't find that page!</h1>
+    </noscript>
+  </body>
 </html>

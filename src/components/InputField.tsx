@@ -16,7 +16,7 @@ export const InputField: FC<InputFieldProps> = ({
   return (
     <div className={containerClassName || ""}>
       {label && <label className="input-label">{label}</label>}
-      <input className={className || "w-[90%] my-2 px-5 py-6 rounded-lg mx-auto h-10 border"} {...inputProps} />
+      <input className={className || "w-[90%] my-2 px-5 py-6 rounded-lg mx-auto h-10 border text-black"} {...inputProps} />
       {error && <span className="input-error">{error}</span>}
     </div>
   );

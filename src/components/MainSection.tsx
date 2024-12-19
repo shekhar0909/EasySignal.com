@@ -8,19 +8,16 @@ export const MainSection = () => {
           <h1 className="text-[3.5rem] tracking-wide text-center lg:text-left text-white font-bold leading-tight my-10 lg:text-[4rem]">
             <span className="text-custom-blue">One</span>{" "}
             <span className="text-custom-blue">platform </span>
-            <br /> all things <br />
+            <br /> <span className="text-custom-blue">Master{" "}</span>all things about <br />
             Stocks
           </h1>
           <p className="text-[1.2rem] text-white text-center lg:text-left lg:leading-loose">
-            Step into the world of trading excellence and seize every
-            opportunity with our advanced platform, expert guidance, and
-            strategic insights for unrivaled financial success.
-          </p>
+          Master the art of trading with EasySignal – live stock analysis, expert courses, and actionable strategies for your financial success.          </p>
         </div>
 
         <div className="text-[1.2rem] text-white font-semibold text-center py-10">
           <div className="lg:flex lg:justify-center lg:gap-5">
-            <h6 className="py-2 lg:text-xl lg:font-bold">Fast Trading</h6>
+            <h6 className="py-2 lg:text-xl lg:font-bold">Easy to Learn</h6>
             <h6 className="py-2 lg:text-xl lg:font-bold">Secure & Reliable</h6>
             <h6 className="py-2 lg:text-xl lg:font-bold">
               Continous Market Updates
@@ -28,19 +25,19 @@ export const MainSection = () => {
           </div>
 
           <button className="w-[80%] lg:w-[250px] mt-10 rounded-lg mx-auto text-center text-black h-12 bg-white">
-            Start Trading Now
+            Start Now
           </button>
         </div>
         <h2 className="text-custom-blue font-semibold text-center text-2xl">
-          Invest in their stock and be part of the business
+          Learn about the stocks and be master in reading and analyse the stocks.
         </h2>
         <div className="lg:grid grid-cols-2">
           <div>
             <h6 className="text-[1rem] text-custom-blue text-center mt-10 lg:text-left">
-              Smart Investation
+              Smart Knowledge
             </h6>
             <h2 className="text-[2.4rem] text-white text-center my-4 font-semibold lg:text-left">
-              Invest Your Funds with Us <br /> and Enjoy Astonishing <br />{" "}
+              Gain Knowledge with Us <br /> and Enjoy Astonishing <br />{" "}
               Returns
             </h2>
             <p className="text-[.8rem] text-center">
@@ -201,7 +198,7 @@ export const MainSection = () => {
         </h2>
         <div className="text-center">
           <button className="bg-white font-medium w-[200px] h-[50px] my-2 rounded-lg">
-            Trade with Us Today
+            Join with Us Today
           </button>
         </div>
       </div>

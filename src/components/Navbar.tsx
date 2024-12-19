@@ -1,11 +1,11 @@
 import {useGoogleLogin,useGoogleOneTapLogin } from "@react-oauth/google";
-import {jwtDecode} from 'jwt-decode';
+// import {jwtDecode} from 'jwt-decode';
 
 
 
 export const Navbar = () => {
   useGoogleLogin({
-    onSuccess: tokenResponse => (console.log(tokenResponse),jwtDecode(tokenResponse)),
+    onSuccess: tokenResponse => (console.log(tokenResponse)),
     onError:()=>console.log('Login Failed')
   });
   return (

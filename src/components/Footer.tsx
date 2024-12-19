@@ -1,16 +1,7 @@
-import { useRef } from "react";
 
 export const Footer = () => {
-  const dailogRef = useRef<HTMLDialogElement>(null);
-  // const navigate = useNavigate();
 
-  function closeDailog(){
-    dailogRef.current?.close();
-  }
-  function openDailog(){
-    dailogRef.current?.showModal();
-    
-  }
+
   return (
     <footer className="bg-[#ffffff]">
       <section className="lg:px-20 mx-auto text-center lg:grid grid-cols-3  space-y-4 p-10 container">

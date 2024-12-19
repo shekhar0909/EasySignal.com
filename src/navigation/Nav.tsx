@@ -8,10 +8,10 @@ import { TermsConditions } from "../pages/Terms&Conditions"
     return(
         <BrowserRouter>
         <Routes>
-         <Route path="/privacy" element={<Privacy/>}/>
-         <Route path="/" element={<Home />}/>
-         <Route path="/refund-policy" element={<RefundPolicy/>}/>
-         <Route path="/terms-conditions" element={<TermsConditions/>}/>
+         <Route path="privacy" element={<Privacy/>}/>
+         <Route index element={<Home />}/>
+         <Route path="refund-policy" element={<RefundPolicy/>}/>
+         <Route path="terms-conditions" element={<TermsConditions/>}/>
         </Routes>
         </BrowserRouter>
         )

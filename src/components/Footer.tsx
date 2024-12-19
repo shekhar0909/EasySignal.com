@@ -18,9 +18,9 @@ export const Footer = () => {
         <span className="my-1 font-normal cursor-pointer hover:font-semibold">Blog</span>
         <span className="my-1 font-normal cursor-pointer hover:font-semibold">Contact</span>
         <span className="my-1 font-normal cursor-pointer hover:font-semibold">Help</span>
-        <a className="my-1 cursor-pointer hover:font-semibold" href="/privacy ">Privacy & Policy</a>
-        <a className="my-1 cursor-pointer hover:font-semibold" href="/refund-policy">Refund Policy</a>
-        <a className="my-1 cursor-pointer hover:font-semibold" href="/terms-conditions">Terms and Condition</a>
+        <a className="my-1 cursor-pointer hover:font-semibold" href="privacy ">Privacy & Policy</a>
+        <a className="my-1 cursor-pointer hover:font-semibold" href="refund-policy">Refund Policy</a>
+        <a className="my-1 cursor-pointer hover:font-semibold" href="terms-conditions">Terms and Condition</a>
         </div>
      <div className="flex flex-col text-center hover:text-slate-700">
      <h6 className="text-[1.1rem] font-semibold mb-2">Contact US</h6>

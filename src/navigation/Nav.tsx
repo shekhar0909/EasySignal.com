@@ -6,7 +6,7 @@ import { TermsConditions } from "../pages/Terms&Conditions"
 
  const Nav=()=>{
     return(
-        <BrowserRouter basename="/">
+        <BrowserRouter>
         <Routes>
          <Route path="/privacy" element={<Privacy/>}/>
          <Route path="/" element={<Home />}/>
